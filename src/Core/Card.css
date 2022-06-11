@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.main-card{
+ display: flex;
+ flex-direction: column !important;
+}
+.core-company{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    flex : 1;
+    justify-content: space-between;
+}
+.core-sub{
+     display: flex;
+    flex-direction: row;
+}
+.logo-cmp{
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+}
+.company-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+.post-name{
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    letter-spacing: 1px;
+}
+.company-name{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(103, 103, 103);
+}
+.icon-icn{
+   font-size: 20px;
+    color: #142683;
+    cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.icon-icn:hover{
+ background-color: rgb(227, 227, 227);
+}
+.other-details{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+.od{
+    display: flex;
+    flex-direction: column;
+}
+.experience{
+    flex: 0.4;
+
+}
+.location{
+    flex: 0.4;
+}
+.line {
+  height: 50px;
+  width: 1px;
+  background-color: #ebf0f5;
+}
+.od-title{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: rgb(103, 103, 103);
+}
+.od-detail{
+    font-size: 16px;
+    font-weight: 700;
+}
+.skills-required{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+.skills-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.skill-skl{
+    background-color: rgb(238, 238, 238);
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+.apply{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: right;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-1{
+    border-radius: 5px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: 1px solid rgb(220, 220, 220);
+  cursor: pointer;
+  padding: 4px;
+  width: 120px;
+  height: 44px;
+margin-right: 10px;
+}
+.btn-1:hover{
+    background-color: #eaedff;
+}
+.btn-2:hover{
+    background-color: #1e37b4;
+}
+.btn-2{
+    border-radius: 5px;
+  background-color: #142683;
+  color: white;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  width: 120px;
+  height: 44px;
+}
+
